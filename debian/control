@@ -3,7 +3,7 @@ Section: cli-mono
 Priority: optional
 Maintainer: Debian Mono Group <pkg-mono-group@lists.alioth.debian.org>
 Uploaders: Mirco Bauer <meebey@debian.org>
-Build-Depends: debhelper (>= 5)
+Build-Depends: debhelper-compat (= 13)
 Build-Depends-Indep: debiandoc-sgml,
  texlive-base-bin,
  texlive-base,
