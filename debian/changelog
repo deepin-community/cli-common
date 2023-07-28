@@ -1,3 +1,14 @@
+cli-common (0.10+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Using new DH level format. Consequently:
+      - debian/compat: removed.
+      - debian/control: changed from 'debhelper' to 'debhelper-compat' in
+        Build-Depends field and bumped level to 13.
+      - Closes: #965460
+
+ -- Guilherme de Paula Xavier Segundo <guilherme.lnx@gmail.com>  Thu, 21 Apr 2022 09:30:10 -0300
+
 cli-common (0.10) unstable; urgency=medium
 
   * The Cambridge BSP ‘Let’s RM the world’ release.
